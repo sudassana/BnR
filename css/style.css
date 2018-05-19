@@ -12,26 +12,30 @@
 	margin: 0px;
 	padding: 0px;
 }
+header{
+	min-width: 100%;
+	height: 70px;
+	background-color:#C94881;
+}
+
 body{
-	background-color: #FFFFFF;
+	background-image: url(../images/baskinrobbins.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 1024px 688px;
+	background-repeat: no-repeat;
 	margin: 0px;
 	padding: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-header{
-	min-width: 100%;
-	height: 80px;
-	background-color:#C94881;
-	
-}
+
 
 #tagline{
 	margin-top: 200px;
 	z-index: 10;
-	background-image: url(../images/tagline.png);
 	background-repeat: no-repeat;
-	padding-top: 200px;
+	padding-top: 100px;
 	width: 200px;
 	
 }
@@ -78,8 +82,9 @@ nav ul li a{
 	padding-bottom: 10px;
 }
 #icon{
-	margin-top: -100px;
+	margin-top: 180px;
 }
+
 
 
 
